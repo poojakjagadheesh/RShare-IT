@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/action_send"
+            android:icon="@mipmap/senditem"
+            android:title="@string/menu_transfer_item_send" />
+
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/action_recieve"
+            android:icon="@mipmap/recieved"
+            android:title="@string/menu_transfer_item_recieved" />
+
+    </group>
+
+
+
+    <group android:id="@+id/grp3" android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/action_about"
+            android:icon="@mipmap/about"
+            android:title="@string/menu_transfer_item_about"
+            app:showAsAction="never" />
+
+    </group>
+
+    <group android:id="@+id/grp4" android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/action_instructions"
+            android:icon="@mipmap/instruction"
+            android:title="@string/menu_transfer_item_instructions"
+            app:showAsAction="never" />
+
+    </group>
+
+    <group android:id="@+id/grp5" android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@mipmap/settings"
+            android:title="@string/menu_transfer_item_settings"
+            app:showAsAction="never" />
+
+    </group>
+
+    <group android:id="@+id/grp6" android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/action_exit"
+            android:icon="@mipmap/exit"
+            android:title="@string/menu_transfer_item_exit"
+            app:showAsAction="never" />
+
+    </group>
+
+
+
+
+</menu>
